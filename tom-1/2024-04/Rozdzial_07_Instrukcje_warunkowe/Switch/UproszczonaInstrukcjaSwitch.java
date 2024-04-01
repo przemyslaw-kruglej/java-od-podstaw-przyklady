@@ -22,7 +22,6 @@ public class UproszczonaInstrukcjaSwitch {
     }
 
     System.out.println(nazwaDnia);
-
   }
 
   public static int pobierzLiczbe() {
