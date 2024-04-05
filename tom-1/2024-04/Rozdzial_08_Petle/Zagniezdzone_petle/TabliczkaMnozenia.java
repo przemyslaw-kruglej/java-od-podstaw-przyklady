@@ -12,7 +12,6 @@ public class TabliczkaMnozenia {
           System.out.print(" " + wynik + " ");
         }
       }
-
       // pusta linia by oddzielić kolejne linie wartości
       System.out.println();
     }

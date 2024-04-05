@@ -10,7 +10,6 @@ public class KwadratLiczbyDoWhile {
       x = pobierzLiczbe();
 
       System.out.println("Kwadrat tej liczby to: " + x * x);
-
       System.out.print(
           "Czy chcesz podać kolejną liczbę? [t/n] "
       );

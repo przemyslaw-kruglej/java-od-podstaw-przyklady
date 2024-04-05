@@ -18,7 +18,6 @@ public class TabliceWielowymiaroweIKlasaArrays {
         { "Ala", "ma", "kota"},
         { "Kot", "ma", "beztroskie", "życie" }
     };
-
     String[][] inneZdania = {
         { "Ala", "ma", "kota" },
         { "Kot", "ma", "beztroskie", "życie" }
