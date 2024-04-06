@@ -21,7 +21,6 @@ public class LiczbaSlowNieKrotszychNiz {
         ileSlow++;
       }
     }
-
     return ileSlow;
   }
 }

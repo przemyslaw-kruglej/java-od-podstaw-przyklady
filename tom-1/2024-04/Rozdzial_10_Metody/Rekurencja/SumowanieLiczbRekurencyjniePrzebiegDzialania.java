@@ -20,16 +20,12 @@ public class SumowanieLiczbRekurencyjniePrzebiegDzialania {
 
       System.out.printf(
           "Po wywołaniu sumuj z arg. %d otrzymałem wynik %d\n",
-          n - 1,
-          wynik
+          n - 1, wynik
       );
       System.out.printf(
           "Teraz zwrócę wartość: %d + %d = %d\n",
-          wynik,
-          n,
-          wynik + n
+          wynik, n, wynik + n
       );
-
       return wynik + n;
     }
   }

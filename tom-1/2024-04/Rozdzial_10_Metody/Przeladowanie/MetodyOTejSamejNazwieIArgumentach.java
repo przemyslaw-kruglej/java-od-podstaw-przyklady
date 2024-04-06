@@ -1,4 +1,4 @@
-public class DwieMetodyOTejSamejNazwieIArgumentach {
+public class MetodyOTejSamejNazwieIArgumentach {
   public static void main(String[] args) {
     wypisz(77);
     wypisz(100);
