@@ -20,7 +20,6 @@ public class UdokumentowanaSumaLiczbWersja1 {
     for (int liczba : liczby) {
       suma += liczba;
     }
-
     return suma;
   }
 }

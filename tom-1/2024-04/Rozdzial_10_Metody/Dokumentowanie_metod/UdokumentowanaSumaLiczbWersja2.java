@@ -18,13 +18,11 @@ public class UdokumentowanaSumaLiczbWersja2 {
     if (liczby == null) {
       return 0;
     }
-
     int suma = 0;
 
     for (int liczba : liczby) {
       suma += liczba;
     }
-
     return suma;
   }
 }
