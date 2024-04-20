@@ -29,6 +29,7 @@ public class PrzeliczanieDlugosciNaMetry {
   public static String pobierzLinieTekstu() {
     return new Scanner(System.in).nextLine();
   }
+
   public static double zamienNaMetry(
       int wartosc, String jednostka
   ) {
