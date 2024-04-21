@@ -27,12 +27,10 @@ public class PodzialTablicy {
     }
 
     System.out.println(
-        "Pierwsza połowa: " +
-        Arrays.toString(pierwszaPolowa)
+        "Pierwsza połowa: " + Arrays.toString(pierwszaPolowa)
     );
     System.out.println(
-        "Druga połowa: " +
-            Arrays.toString(drugaPolowa)
+        "Druga połowa: " + Arrays.toString(drugaPolowa)
     );
   }
 }
