@@ -1,6 +1,6 @@
 public class StworzNazweWCamelCase {
   public static void main(String[] args) {
-    // oczekiwana wynik: "mojaNazwa"
+    // oczekiwany wynik: "mojaNazwa"
     System.out.println(zapiszWCamelCase("Moja", "NAZWA"));
 
     // oczekiwany wynik: ""
