@@ -62,9 +62,9 @@ public class NajczestszaLiczbaWTablicy {
 
           ileRazyWystapilaNajczestszaDoTejPory =
               aktualnaIleRazyWystapila;
-
-          aktualnaIleRazyWystapila = 1;
         }
+
+        aktualnaIleRazyWystapila = 1;
         aktualnaLiczba = liczby[i];
       }
     }
