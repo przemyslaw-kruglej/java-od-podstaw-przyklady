@@ -58,7 +58,7 @@ public class Szyfrator {
   public static void poinformujZeNieprawidloweDane() {
     System.out.println("""
         Nieprawidłowe argumenty.
-        Użyj argumentu --help aby wyświetlić
+        Użyj argumentu --help aby wyświetlić \
         informacje o programie.
         """
     );
