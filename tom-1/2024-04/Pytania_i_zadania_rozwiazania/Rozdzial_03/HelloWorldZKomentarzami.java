@@ -5,8 +5,7 @@ public class HelloWorldZKomentarzami {
     przez Maszynę Wirtualną Java.
   */
   public static void main(String[] args) {
-    // ta instrukcja wypisuje na ekran
-    // przekazany jej komunikat
+    // ta instrukcja wypisuje na ekran podany tekst
     System.out.println("Witaj Świecie!");
   }
 }
