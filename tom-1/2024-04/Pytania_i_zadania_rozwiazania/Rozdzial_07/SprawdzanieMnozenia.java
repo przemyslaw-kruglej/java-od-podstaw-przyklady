@@ -24,7 +24,7 @@ public class SprawdzanieMnozenia {
       System.out.println("To poprawna odpowiedź!");
     } else {
       System.out.printf(
-          "Błędna odpowiedź - ten to wynosi %d.",
+          "Błędna odpowiedź - ten iloczyn to %d.",
           wynikMnozenia
       );
     }
