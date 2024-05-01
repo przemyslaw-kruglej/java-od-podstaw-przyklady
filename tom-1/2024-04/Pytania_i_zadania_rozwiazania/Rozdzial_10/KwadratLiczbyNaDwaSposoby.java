@@ -23,6 +23,7 @@ public class KwadratLiczbyNaDwaSposoby {
         "Podaj liczbę a ja policzę jej kwadrat: "
     );
     int liczba = pobierzLiczbe();
+
     System.out.println(
         "Kwadrat tej liczby wynosi: " +
         podniesDoKwadratu(liczba)
