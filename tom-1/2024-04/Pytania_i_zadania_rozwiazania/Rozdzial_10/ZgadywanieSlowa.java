@@ -16,7 +16,7 @@ public class ZgadywanieSlowa {
       System.out.print(
           "\nPodaj literę lub odgadnięte hasło: "
       );
-      String literaLubHaslo = pobierzSlowo();
+      String literaLubHaslo = pobierzSlowo().toLowerCase();
 
       if (literaLubHaslo.length() == 1) {
         for (int i = 0; i < haslo.length(); i++) {
@@ -30,7 +30,7 @@ public class ZgadywanieSlowa {
         }
         wypiszHaslo(odgadnieteLitery);
       } else {
-        if (haslo.equalsIgnoreCase(literaLubHaslo)) {
+        if (haslo.equals(literaLubHaslo)) {
           System.out.println(
               "Gratulacje! Odgadłeś(-aś) hasło."
           );
