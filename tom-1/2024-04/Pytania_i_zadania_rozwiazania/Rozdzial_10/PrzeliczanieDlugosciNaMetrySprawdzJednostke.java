@@ -25,7 +25,9 @@ public class PrzeliczanieDlugosciNaMetrySprawdzJednostke {
             wartosc, jednostka, wartoscWMetrach
         );
       } else {
-        System.out.println("Nieznana jednostka: " + jednostka);
+        System.out.println(
+            "Nieznana jednostka: " + jednostka
+        );
       }
     }
   }
@@ -34,7 +36,9 @@ public class PrzeliczanieDlugosciNaMetrySprawdzJednostke {
     return new Scanner(System.in).nextLine();
   }
 
-  public static boolean czyPoprawnaJednostka(String jednostka) {
+  public static boolean czyPoprawnaJednostka(
+      String jednostka
+  ) {
     return "km".equals(jednostka) || "mi".equals(jednostka) ||
         "ft".equals(jednostka) || "y".equals(jednostka) ||
         "in".equals(jednostka);
